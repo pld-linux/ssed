@@ -28,7 +28,7 @@ GNU seda.
 %setup -q -n sed-%{version}
 
 %build
-%configure 
+%configure
 
 %{__make}
 
