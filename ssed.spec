@@ -1,5 +1,5 @@
 Summary:	Super sed
-Summary(pl):    Super sed
+Summary(pl):	Super sed
 Name:		ssed
 Version:	3.60
 Release:	1
@@ -8,7 +8,7 @@ Group:		Applications/Text
 #Source0Download:	http://sed.sourceforge.net/grabbag/ssed/testo.htm
 Source0:	http://sed.sourceforge.net/grabbag/ssed/sed-%{version}.tar.gz
 # Source0-md5:	259052685565df63de77ab729cb657de
-URL:            http://sed.sourceforge.net/grabbag/ssed/
+URL:		http://sed.sourceforge.net/grabbag/ssed/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides:	sed
 Obsoletes:	sed
