@@ -1,7 +1,7 @@
 Summary:	Super sed
 Summary(pl):    Super sed
 Name:		ssed
-Version:	3.58
+Version:	3.60
 Release:	1
 License:	GPL
 Group:		Applications/Text
