@@ -33,15 +33,17 @@ GNU seda.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} \
-	install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
+%find_lang sed
 
+%clean
+rm -rf $RPM_BUILD_ROOT
 
-%files
+%files -f sed.lang
 %defattr(644,root,root,755)
 %doc AUTHORS BUGS ChangeLog NEWS README README.boot THANKS TODO
 %attr(755,root,root) %{_bindir}/*
 %{_infodir}/sed*
 %{_mandir}/man1/*
-%{_datadir}/locale/*/LC_MESSAGES/*
