@@ -1,12 +1,12 @@
 Summary:	Super sed
 Summary(pl):    Super sed
 Name:		ssed
-Version:	3.57a
-Release:	2
+Version:	3.58
+Release:	1
 License:	GPL
 Group:		Applications/Text
-Source0:	http://spazioweb.inwind.it/seders/ssed/sed-%{version}.tar.gz
-URL:            http://spazioweb.inwind.it/seders/ssed/
+Source0:	http://king.rett.polimi.it/~paolob/seders/ssed/sed-%{version}.tar.gz
+URL:            http://king.rett.polimi.it/~paolob/seders/ssed/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides:	sed
 Obsoletes:	sed
@@ -32,13 +32,15 @@ GNU seda.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf AUTHORS BUGS ChangeLog NEWS README README.boot THANKS TODO
+%{__make} \
+	install DESTDIR=$RPM_BUILD_ROOT
+
+
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS BUGS ChangeLog NEWS README README.boot THANKS TODO
 %attr(755,root,root) %{_bindir}/*
 %{_infodir}/sed*
 %{_mandir}/man1/*
