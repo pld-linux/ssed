@@ -5,8 +5,9 @@ Version:	3.58
 Release:	1
 License:	GPL
 Group:		Applications/Text
-Source0:	http://king.rett.polimi.it/~paolob/seders/ssed/sed-%{version}.tar.gz
-URL:            http://king.rett.polimi.it/~paolob/seders/ssed/
+#Source0Download:	http://sed.sourceforge.net/grabbag/ssed/testo.htm
+Source0:	http://sed.sourceforge.net/grabbag/ssed/sed-%{version}.tar.gz
+URL:            http://sed.sourceforge.net/grabbag/ssed/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides:	sed
 Obsoletes:	sed
