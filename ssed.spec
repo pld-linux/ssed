@@ -21,7 +21,7 @@ Perl regular expressions and much greater speed than GNU sed.
 ssed (Super Stream EDitor) jest edytorem strumieni lub wsadowym
 (nieinteraktywnym) edytorem. Sed pobiera tekst na wej¶ciu, przetwarza
 go wed³ug zestawu operacji i oddaje na wyj¶ciu przetworzony tekst.
-ssed jest nowa wersja GNU seda zawierajaca nowe opcje i jest szybszy od
+ssed jest now± wersj± GNU seda zawieraj±c± nowe opcje i szybsz± od
 GNU seda.
 
 %prep
