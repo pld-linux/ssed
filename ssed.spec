@@ -37,12 +37,12 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-%find_lang sed
+%find_lang ssed
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files -f sed.lang
+%files -f ssed.lang
 %defattr(644,root,root,755)
 %doc AUTHORS BUGS ChangeLog NEWS README README.boot THANKS TODO
 %attr(755,root,root) %{_bindir}/*
