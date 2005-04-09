@@ -1,13 +1,12 @@
-Summary:	Super sed
-Summary(pl):	Super sed
+Summary:	Super sed - version of sed with a few new features
+Summary(pl):	Super sed - wersja seda z kilkoma nowymi mo¿liwo¶ciami
 Name:		ssed
-Version:	3.60
+Version:	3.62
 Release:	1
 License:	GPL
 Group:		Applications/Text
-#Source0Download:	http://sed.sourceforge.net/grabbag/ssed/testo.htm
 Source0:	http://sed.sourceforge.net/grabbag/ssed/sed-%{version}.tar.gz
-# Source0-md5:	259052685565df63de77ab729cb657de
+# Source0-md5:	8f35882af95da4e5ddbf3de1add26f79
 URL:		http://sed.sourceforge.net/grabbag/ssed/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides:	sed
@@ -38,7 +37,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-%find_lang ssed
+%find_lang %{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
