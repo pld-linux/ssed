@@ -8,9 +8,9 @@ Group:		Applications/Text
 Source0:	http://sed.sourceforge.net/grabbag/ssed/sed-%{version}.tar.gz
 # Source0-md5:	8f35882af95da4e5ddbf3de1add26f79
 URL:		http://sed.sourceforge.net/grabbag/ssed/
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides:	sed
 Obsoletes:	sed
+BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 ssed is a version of sed that supports a few new features, including
