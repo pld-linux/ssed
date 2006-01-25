@@ -10,7 +10,7 @@ Source0:	http://sed.sourceforge.net/grabbag/ssed/sed-%{version}.tar.gz
 URL:		http://sed.sourceforge.net/grabbag/ssed/
 Provides:	sed
 Obsoletes:	sed
-BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 ssed is a version of sed that supports a few new features, including
