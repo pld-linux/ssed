@@ -1,5 +1,5 @@
 Summary:	Super sed - version of sed with a few new features
-Summary(pl.UTF-8):   Super sed - wersja seda z kilkoma nowymi możliwościami
+Summary(pl.UTF-8):	Super sed - wersja seda z kilkoma nowymi możliwościami
 Name:		ssed
 Version:	3.62
 Release:	1
