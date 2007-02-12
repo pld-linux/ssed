@@ -1,5 +1,5 @@
 Summary:	Super sed - version of sed with a few new features
-Summary(pl):	Super sed - wersja seda z kilkoma nowymi mo¿liwo¶ciami
+Summary(pl.UTF-8):   Super sed - wersja seda z kilkoma nowymi moÅ¼liwoÅ›ciami
 Name:		ssed
 Version:	3.62
 Release:	1
@@ -16,11 +16,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ssed is a version of sed that supports a few new features, including
 Perl regular expressions and much greater speed than GNU sed.
 
-%description -l pl
+%description -l pl.UTF-8
 ssed (Super Stream EDitor) jest edytorem strumieni lub wsadowym
-(nieinteraktywnym) edytorem. Sed pobiera tekst na wej¶ciu, przetwarza
-go wed³ug zestawu operacji i oddaje na wyj¶ciu przetworzony tekst.
-ssed jest now± wersj± GNU seda zawieraj±c± nowe opcje i szybsz± od
+(nieinteraktywnym) edytorem. Sed pobiera tekst na wejÅ›ciu, przetwarza
+go wedÅ‚ug zestawu operacji i oddaje na wyjÅ›ciu przetworzony tekst.
+ssed jest nowÄ… wersjÄ… GNU seda zawierajÄ…cÄ… nowe opcje i szybszÄ… od
 GNU seda.
 
 %prep
